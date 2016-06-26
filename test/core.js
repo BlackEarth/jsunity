@@ -16,7 +16,7 @@ function checkAssertions(scope) {
     }
 }
 
-function coreTestSuite() {
+function CoreTestSuite() {
     function checkResults(results, suiteName) {
         assert.instanceOf(jsUnity.TestResults, results);
         assert.is(suiteName || "", results.suiteName);
